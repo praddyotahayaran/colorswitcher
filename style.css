@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Ramabhadra', sans-serif;
 }
 
 :root {
@@ -9,12 +12,17 @@
     --textColor: #fff;
 }
 
+.myWeb {
+    width: 100%;
+    position: fixed;
+}
+
 /* ********* NAVBAR ********** */
 
 .navBar{
     display: flex;
     background: var(--mainColor);
-    height: 55px;
+    height: 4.2rem;
     color: var(--textColor);
     align-items: center;
     justify-content: space-between;
@@ -46,7 +54,7 @@
     font-size: 18px;
 }
 
-.navBar li a{
+a{
     text-decoration: none;
     color: white;
 }
@@ -76,8 +84,8 @@
     right: 0;
     color: var(--mainColor);
     background-color: aqua;
-    font-size: 28px;
-    padding: .2rem .5rem;
+    font-size: 25px;
+    padding: 0 .7rem;
     border-radius: 1rem 0 0 1rem;
     cursor: pointer;
 }
@@ -95,11 +103,11 @@
 .colorThemes {
     position: absolute;
     right: -95px;
-    top: 8rem;
+    top: 8.7rem;
     gap: 0.5rem;
     display: flex;
-    width: 6rem;
-    height: 4rem;
+    width: 4.9rem;
+    height: 3rem;
     background: aqua;
     align-items: center;
     justify-content: center;
@@ -113,8 +121,8 @@
 
 .colorThemes>.themes {
     display: flex;
-    height: 2rem;
-    width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
     border-radius: 50%;
     cursor: pointer;
     
@@ -124,10 +132,10 @@
 /* ********** MEDIA QUERIES ************* */
 
 @media screen and (max-width: 650px) {
-    .myWeb {
+    /* .myWeb {
         width: 100%;
         position: fixed;
-    }
+    } */
 
     .navBar ul{
         position: absolute;
