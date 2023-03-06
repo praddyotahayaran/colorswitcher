@@ -58,7 +58,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: .4rem;
+    gap: .3rem;
 }
 
 .hamburgerMenu>.bars {
@@ -124,6 +124,11 @@
 /* ********** MEDIA QUERIES ************* */
 
 @media screen and (max-width: 650px) {
+    .myWeb {
+        width: 100%;
+        position: fixed;
+    }
+
     .navBar ul{
         position: absolute;
         top: 4rem;
